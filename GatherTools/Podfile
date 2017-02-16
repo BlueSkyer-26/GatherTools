@@ -1,4 +1,7 @@
 platform :ios, '8.0'
 target 'GatherTools' do
-pod 'AFNetworking', '~> 3.0'
+pod 'AFNetworking'
+pod 'CYLTabBarController', :git => 'https://github.com/ChenYilong/CYLTabBarController.git'
+pod 'Masonry'
+pod 'SVProgressHUD', :git => 'https://github.com/SVProgressHUD/SVProgressHUD.git'
 end

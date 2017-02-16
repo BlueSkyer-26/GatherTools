@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "GTTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    NSLog(@"哈哈tlol");
+    
+    _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    GTTabBarController *tabbar = [[GTTabBarController alloc] init];
+    self.window.rootViewController = tabbar.tabBarController;
     // Override point for customization after application launch.
     return YES;
 }

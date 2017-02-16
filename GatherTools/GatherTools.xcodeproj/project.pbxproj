@@ -14,6 +14,52 @@
 		F41100551E529E5D004EDE49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F41100531E529E5D004EDE49 /* Main.storyboard */; };
 		F41100571E529E5D004EDE49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F41100561E529E5D004EDE49 /* Assets.xcassets */; };
 		F411005A1E529E5D004EDE49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F41100581E529E5D004EDE49 /* LaunchScreen.storyboard */; };
+		F41100881E52D4A8004EDE49 /* GTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100871E52D4A8004EDE49 /* GTTabBarController.m */; };
+		F41100921E52D86A004EDE49 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100911E52D86A004EDE49 /* BaseViewController.m */; };
+		F41100DE1E52D926004EDE49 /* NSObject+YC_HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100971E52D925004EDE49 /* NSObject+YC_HUD.m */; };
+		F41100DF1E52D926004EDE49 /* YC_ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100991E52D925004EDE49 /* YC_ProgressHUD.m */; };
+		F41100E01E52D926004EDE49 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = F411009C1E52D925004EDE49 /* UIImage+Alpha.m */; };
+		F41100E11E52D926004EDE49 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = F411009E1E52D925004EDE49 /* UIImage+animatedGIF.m */; };
+		F41100E21E52D926004EDE49 /* UIImage+BetterFace.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100A01E52D925004EDE49 /* UIImage+BetterFace.m */; };
+		F41100E31E52D926004EDE49 /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100A21E52D925004EDE49 /* UIImage+Blur.m */; };
+		F41100E41E52D926004EDE49 /* UIImage+Capture.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100A41E52D925004EDE49 /* UIImage+Capture.m */; };
+		F41100E51E52D926004EDE49 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100A61E52D925004EDE49 /* UIImage+Color.m */; };
+		F41100E61E52D926004EDE49 /* UIImage+FileName.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100A81E52D925004EDE49 /* UIImage+FileName.m */; };
+		F41100E71E52D926004EDE49 /* UIImage+FX.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100AA1E52D925004EDE49 /* UIImage+FX.m */; };
+		F41100E81E52D926004EDE49 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100AC1E52D925004EDE49 /* UIImage+GIF.m */; };
+		F41100E91E52D926004EDE49 /* UIImage+Merge.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100AE1E52D925004EDE49 /* UIImage+Merge.m */; };
+		F41100EA1E52D926004EDE49 /* UIImage+Orientation.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100B01E52D925004EDE49 /* UIImage+Orientation.m */; };
+		F41100EB1E52D926004EDE49 /* UIImage+PDF.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100B21E52D925004EDE49 /* UIImage+PDF.m */; };
+		F41100EC1E52D926004EDE49 /* UIImage+RemoteSize.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100B41E52D925004EDE49 /* UIImage+RemoteSize.m */; };
+		F41100ED1E52D926004EDE49 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100B61E52D925004EDE49 /* UIImage+Resize.m */; };
+		F41100EE1E52D926004EDE49 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100B81E52D925004EDE49 /* UIImage+RoundedCorner.m */; };
+		F41100EF1E52D926004EDE49 /* UIImage+Vector.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100BA1E52D925004EDE49 /* UIImage+Vector.m */; };
+		F41100F01E52D926004EDE49 /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100BD1E52D926004EDE49 /* UIView+Animation.m */; };
+		F41100F11E52D926004EDE49 /* UIView+BlockGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100BF1E52D926004EDE49 /* UIView+BlockGesture.m */; };
+		F41100F21E52D926004EDE49 /* UIView+Constraints.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100C11E52D926004EDE49 /* UIView+Constraints.m */; };
+		F41100F31E52D926004EDE49 /* UIView+CustomBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100C31E52D926004EDE49 /* UIView+CustomBorder.m */; };
+		F41100F41E52D926004EDE49 /* UIView+Debug.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100C51E52D926004EDE49 /* UIView+Debug.m */; };
+		F41100F51E52D926004EDE49 /* UIView+draggable.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100C71E52D926004EDE49 /* UIView+draggable.m */; };
+		F41100F61E52D926004EDE49 /* UIView+FDCollapsibleConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100C91E52D926004EDE49 /* UIView+FDCollapsibleConstraints.m */; };
+		F41100F71E52D926004EDE49 /* UIView+Find.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100CB1E52D926004EDE49 /* UIView+Find.m */; };
+		F41100F81E52D926004EDE49 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100CD1E52D926004EDE49 /* UIView+Frame.m */; };
+		F41100F91E52D926004EDE49 /* UIView+GestureCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100CF1E52D926004EDE49 /* UIView+GestureCallback.m */; };
+		F41100FA1E52D926004EDE49 /* UIView+Nib.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100D11E52D926004EDE49 /* UIView+Nib.m */; };
+		F41100FB1E52D926004EDE49 /* UIView+Recursion.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100D31E52D926004EDE49 /* UIView+Recursion.m */; };
+		F41100FC1E52D926004EDE49 /* UIView+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100D51E52D926004EDE49 /* UIView+Screenshot.m */; };
+		F41100FD1E52D926004EDE49 /* UIView+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100D71E52D926004EDE49 /* UIView+Shake.m */; };
+		F41100FE1E52D926004EDE49 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100D91E52D926004EDE49 /* UIView+Toast.m */; };
+		F41100FF1E52D926004EDE49 /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100DB1E52D926004EDE49 /* UIView+ViewController.m */; };
+		F41101001E52D926004EDE49 /* UIView+Visuals.m in Sources */ = {isa = PBXBuildFile; fileRef = F41100DD1E52D926004EDE49 /* UIView+Visuals.m */; };
+		F41101041E52D999004EDE49 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F41101031E52D999004EDE49 /* Reachability.m */; };
+		F41101081E52E01E004EDE49 /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = F41101071E52E01E004EDE49 /* UINavigationBar+Awesome.m */; };
+		F4D747851E55347C00F6985A /* GTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D747841E55347C00F6985A /* GTHomeViewController.m */; };
+		F4D747A01E55352A00F6985A /* GTMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D7479F1E55352A00F6985A /* GTMineViewController.m */; };
+		F4D747A31E55353B00F6985A /* GTCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D747A21E55353B00F6985A /* GTCityViewController.m */; };
+		F4D747A61E55354A00F6985A /* GTShowToolsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D747A51E55354A00F6985A /* GTShowToolsViewController.m */; };
+		F4D747A91E55355500F6985A /* GTCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D747A81E55355500F6985A /* GTCenterViewController.m */; };
+		F4D747AC1E55721200F6985A /* GTNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D747AB1E55721200F6985A /* GTNavigationViewController.m */; };
+		F4D747AF1E5572A200F6985A /* AnimationContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D747AE1E5572A200F6985A /* AnimationContoller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +76,99 @@
 		F41100561E529E5D004EDE49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F41100591E529E5D004EDE49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F411005B1E529E5D004EDE49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F41100861E52D4A8004EDE49 /* GTTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTTabBarController.h; sourceTree = "<group>"; };
+		F41100871E52D4A8004EDE49 /* GTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTTabBarController.m; sourceTree = "<group>"; };
+		F41100901E52D86A004EDE49 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		F41100911E52D86A004EDE49 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		F41100961E52D925004EDE49 /* NSObject+YC_HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YC_HUD.h"; sourceTree = "<group>"; };
+		F41100971E52D925004EDE49 /* NSObject+YC_HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YC_HUD.m"; sourceTree = "<group>"; };
+		F41100981E52D925004EDE49 /* YC_ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YC_ProgressHUD.h; sourceTree = "<group>"; };
+		F41100991E52D925004EDE49 /* YC_ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YC_ProgressHUD.m; sourceTree = "<group>"; };
+		F411009B1E52D925004EDE49 /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		F411009C1E52D925004EDE49 /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		F411009D1E52D925004EDE49 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		F411009E1E52D925004EDE49 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		F411009F1E52D925004EDE49 /* UIImage+BetterFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BetterFace.h"; sourceTree = "<group>"; };
+		F41100A01E52D925004EDE49 /* UIImage+BetterFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BetterFace.m"; sourceTree = "<group>"; };
+		F41100A11E52D925004EDE49 /* UIImage+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
+		F41100A21E52D925004EDE49 /* UIImage+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blur.m"; sourceTree = "<group>"; };
+		F41100A31E52D925004EDE49 /* UIImage+Capture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Capture.h"; sourceTree = "<group>"; };
+		F41100A41E52D925004EDE49 /* UIImage+Capture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Capture.m"; sourceTree = "<group>"; };
+		F41100A51E52D925004EDE49 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		F41100A61E52D925004EDE49 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		F41100A71E52D925004EDE49 /* UIImage+FileName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FileName.h"; sourceTree = "<group>"; };
+		F41100A81E52D925004EDE49 /* UIImage+FileName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FileName.m"; sourceTree = "<group>"; };
+		F41100A91E52D925004EDE49 /* UIImage+FX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FX.h"; sourceTree = "<group>"; };
+		F41100AA1E52D925004EDE49 /* UIImage+FX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FX.m"; sourceTree = "<group>"; };
+		F41100AB1E52D925004EDE49 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		F41100AC1E52D925004EDE49 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		F41100AD1E52D925004EDE49 /* UIImage+Merge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Merge.h"; sourceTree = "<group>"; };
+		F41100AE1E52D925004EDE49 /* UIImage+Merge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Merge.m"; sourceTree = "<group>"; };
+		F41100AF1E52D925004EDE49 /* UIImage+Orientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Orientation.h"; sourceTree = "<group>"; };
+		F41100B01E52D925004EDE49 /* UIImage+Orientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Orientation.m"; sourceTree = "<group>"; };
+		F41100B11E52D925004EDE49 /* UIImage+PDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PDF.h"; sourceTree = "<group>"; };
+		F41100B21E52D925004EDE49 /* UIImage+PDF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PDF.m"; sourceTree = "<group>"; };
+		F41100B31E52D925004EDE49 /* UIImage+RemoteSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RemoteSize.h"; sourceTree = "<group>"; };
+		F41100B41E52D925004EDE49 /* UIImage+RemoteSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RemoteSize.m"; sourceTree = "<group>"; };
+		F41100B51E52D925004EDE49 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		F41100B61E52D925004EDE49 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		F41100B71E52D925004EDE49 /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		F41100B81E52D925004EDE49 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		F41100B91E52D925004EDE49 /* UIImage+Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Vector.h"; sourceTree = "<group>"; };
+		F41100BA1E52D925004EDE49 /* UIImage+Vector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Vector.m"; sourceTree = "<group>"; };
+		F41100BC1E52D926004EDE49 /* UIView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
+		F41100BD1E52D926004EDE49 /* UIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
+		F41100BE1E52D926004EDE49 /* UIView+BlockGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BlockGesture.h"; sourceTree = "<group>"; };
+		F41100BF1E52D926004EDE49 /* UIView+BlockGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BlockGesture.m"; sourceTree = "<group>"; };
+		F41100C01E52D926004EDE49 /* UIView+Constraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Constraints.h"; sourceTree = "<group>"; };
+		F41100C11E52D926004EDE49 /* UIView+Constraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Constraints.m"; sourceTree = "<group>"; };
+		F41100C21E52D926004EDE49 /* UIView+CustomBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CustomBorder.h"; sourceTree = "<group>"; };
+		F41100C31E52D926004EDE49 /* UIView+CustomBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CustomBorder.m"; sourceTree = "<group>"; };
+		F41100C41E52D926004EDE49 /* UIView+Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Debug.h"; sourceTree = "<group>"; };
+		F41100C51E52D926004EDE49 /* UIView+Debug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Debug.m"; sourceTree = "<group>"; };
+		F41100C61E52D926004EDE49 /* UIView+draggable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+draggable.h"; sourceTree = "<group>"; };
+		F41100C71E52D926004EDE49 /* UIView+draggable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+draggable.m"; sourceTree = "<group>"; };
+		F41100C81E52D926004EDE49 /* UIView+FDCollapsibleConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FDCollapsibleConstraints.h"; sourceTree = "<group>"; };
+		F41100C91E52D926004EDE49 /* UIView+FDCollapsibleConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FDCollapsibleConstraints.m"; sourceTree = "<group>"; };
+		F41100CA1E52D926004EDE49 /* UIView+Find.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Find.h"; sourceTree = "<group>"; };
+		F41100CB1E52D926004EDE49 /* UIView+Find.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Find.m"; sourceTree = "<group>"; };
+		F41100CC1E52D926004EDE49 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		F41100CD1E52D926004EDE49 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		F41100CE1E52D926004EDE49 /* UIView+GestureCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GestureCallback.h"; sourceTree = "<group>"; };
+		F41100CF1E52D926004EDE49 /* UIView+GestureCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GestureCallback.m"; sourceTree = "<group>"; };
+		F41100D01E52D926004EDE49 /* UIView+Nib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Nib.h"; sourceTree = "<group>"; };
+		F41100D11E52D926004EDE49 /* UIView+Nib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Nib.m"; sourceTree = "<group>"; };
+		F41100D21E52D926004EDE49 /* UIView+Recursion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Recursion.h"; sourceTree = "<group>"; };
+		F41100D31E52D926004EDE49 /* UIView+Recursion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Recursion.m"; sourceTree = "<group>"; };
+		F41100D41E52D926004EDE49 /* UIView+Screenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Screenshot.h"; sourceTree = "<group>"; };
+		F41100D51E52D926004EDE49 /* UIView+Screenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Screenshot.m"; sourceTree = "<group>"; };
+		F41100D61E52D926004EDE49 /* UIView+Shake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Shake.h"; sourceTree = "<group>"; };
+		F41100D71E52D926004EDE49 /* UIView+Shake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Shake.m"; sourceTree = "<group>"; };
+		F41100D81E52D926004EDE49 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		F41100D91E52D926004EDE49 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		F41100DA1E52D926004EDE49 /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
+		F41100DB1E52D926004EDE49 /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
+		F41100DC1E52D926004EDE49 /* UIView+Visuals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Visuals.h"; sourceTree = "<group>"; };
+		F41100DD1E52D926004EDE49 /* UIView+Visuals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Visuals.m"; sourceTree = "<group>"; };
+		F41101021E52D999004EDE49 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		F41101031E52D999004EDE49 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		F41101061E52E01E004EDE49 /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
+		F41101071E52E01E004EDE49 /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
+		F411010A1E52E27F004EDE49 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		F4D747831E55347C00F6985A /* GTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTHomeViewController.h; sourceTree = "<group>"; };
+		F4D747841E55347C00F6985A /* GTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTHomeViewController.m; sourceTree = "<group>"; };
+		F4D7479E1E55352A00F6985A /* GTMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMineViewController.h; sourceTree = "<group>"; };
+		F4D7479F1E55352A00F6985A /* GTMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMineViewController.m; sourceTree = "<group>"; };
+		F4D747A11E55353B00F6985A /* GTCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTCityViewController.h; sourceTree = "<group>"; };
+		F4D747A21E55353B00F6985A /* GTCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTCityViewController.m; sourceTree = "<group>"; };
+		F4D747A41E55354A00F6985A /* GTShowToolsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTShowToolsViewController.h; sourceTree = "<group>"; };
+		F4D747A51E55354A00F6985A /* GTShowToolsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTShowToolsViewController.m; sourceTree = "<group>"; };
+		F4D747A71E55355500F6985A /* GTCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTCenterViewController.h; sourceTree = "<group>"; };
+		F4D747A81E55355500F6985A /* GTCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTCenterViewController.m; sourceTree = "<group>"; };
+		F4D747AA1E55721200F6985A /* GTNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTNavigationViewController.h; sourceTree = "<group>"; };
+		F4D747AB1E55721200F6985A /* GTNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTNavigationViewController.m; sourceTree = "<group>"; };
+		F4D747AD1E5572A200F6985A /* AnimationContoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationContoller.h; sourceTree = "<group>"; };
+		F4D747AE1E5572A200F6985A /* AnimationContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationContoller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +221,9 @@
 		F41100491E529E5D004EDE49 /* GatherTools */ = {
 			isa = PBXGroup;
 			children = (
+				F41100931E52D8FC004EDE49 /* Tools */,
+				F41100891E52D523004EDE49 /* Main */,
+				F41100841E52D3DD004EDE49 /* Public */,
 				F411004D1E529E5D004EDE49 /* AppDelegate.h */,
 				F411004E1E529E5D004EDE49 /* AppDelegate.m */,
 				F41100501E529E5D004EDE49 /* ViewController.h */,
@@ -101,6 +243,354 @@
 				F411004B1E529E5D004EDE49 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F41100841E52D3DD004EDE49 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				F41101091E52E233004EDE49 /* Define */,
+				F41101051E52E01D004EDE49 /* UINavigationBar */,
+				F411008F1E52D82E004EDE49 /* BaseController */,
+				F41100851E52D402004EDE49 /* GTTabBarContollerConfig */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		F41100851E52D402004EDE49 /* GTTabBarContollerConfig */ = {
+			isa = PBXGroup;
+			children = (
+				F41100861E52D4A8004EDE49 /* GTTabBarController.h */,
+				F41100871E52D4A8004EDE49 /* GTTabBarController.m */,
+			);
+			path = GTTabBarContollerConfig;
+			sourceTree = "<group>";
+		};
+		F41100891E52D523004EDE49 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F411008E1E52D59A004EDE49 /* Center(中间按钮) */,
+				F411008D1E52D579004EDE49 /* ShowTools */,
+				F411008C1E52D551004EDE49 /* City */,
+				F411008B1E52D542004EDE49 /* Mine */,
+				F411008A1E52D539004EDE49 /* Home */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F411008A1E52D539004EDE49 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F411010D1E52E470004EDE49 /* Controller */,
+				F411010C1E52E46C004EDE49 /* View */,
+				F411010B1E52E461004EDE49 /* Model */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F411008B1E52D542004EDE49 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				F4D747861E55349F00F6985A /* Controller */,
+				F4D747891E55349F00F6985A /* Model */,
+				F4D7478A1E55349F00F6985A /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		F411008C1E52D551004EDE49 /* City */ = {
+			isa = PBXGroup;
+			children = (
+				F4D7478C1E5534B400F6985A /* Controller */,
+				F4D7478F1E5534B400F6985A /* Model */,
+				F4D747901E5534B400F6985A /* View */,
+			);
+			path = City;
+			sourceTree = "<group>";
+		};
+		F411008D1E52D579004EDE49 /* ShowTools */ = {
+			isa = PBXGroup;
+			children = (
+				F4D747921E5534C000F6985A /* Controller */,
+				F4D747951E5534C000F6985A /* Model */,
+				F4D747961E5534C000F6985A /* View */,
+			);
+			path = ShowTools;
+			sourceTree = "<group>";
+		};
+		F411008E1E52D59A004EDE49 /* Center(中间按钮) */ = {
+			isa = PBXGroup;
+			children = (
+				F4D747981E5534CB00F6985A /* Controller */,
+				F4D7479B1E5534CB00F6985A /* Model */,
+				F4D7479C1E5534CB00F6985A /* View */,
+			);
+			name = "Center(中间按钮)";
+			path = Center;
+			sourceTree = "<group>";
+		};
+		F411008F1E52D82E004EDE49 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				F41100901E52D86A004EDE49 /* BaseViewController.h */,
+				F41100911E52D86A004EDE49 /* BaseViewController.m */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		F41100931E52D8FC004EDE49 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F41101011E52D999004EDE49 /* Reachability(检测网络状态) */,
+				F41100941E52D925004EDE49 /* Category */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		F41100941E52D925004EDE49 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F41100951E52D925004EDE49 /* SVProgressHUDTool */,
+				F411009A1E52D925004EDE49 /* UIImage */,
+				F41100BB1E52D925004EDE49 /* UIView */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F41100951E52D925004EDE49 /* SVProgressHUDTool */ = {
+			isa = PBXGroup;
+			children = (
+				F41100961E52D925004EDE49 /* NSObject+YC_HUD.h */,
+				F41100971E52D925004EDE49 /* NSObject+YC_HUD.m */,
+				F41100981E52D925004EDE49 /* YC_ProgressHUD.h */,
+				F41100991E52D925004EDE49 /* YC_ProgressHUD.m */,
+			);
+			path = SVProgressHUDTool;
+			sourceTree = "<group>";
+		};
+		F411009A1E52D925004EDE49 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				F411009B1E52D925004EDE49 /* UIImage+Alpha.h */,
+				F411009C1E52D925004EDE49 /* UIImage+Alpha.m */,
+				F411009D1E52D925004EDE49 /* UIImage+animatedGIF.h */,
+				F411009E1E52D925004EDE49 /* UIImage+animatedGIF.m */,
+				F411009F1E52D925004EDE49 /* UIImage+BetterFace.h */,
+				F41100A01E52D925004EDE49 /* UIImage+BetterFace.m */,
+				F41100A11E52D925004EDE49 /* UIImage+Blur.h */,
+				F41100A21E52D925004EDE49 /* UIImage+Blur.m */,
+				F41100A31E52D925004EDE49 /* UIImage+Capture.h */,
+				F41100A41E52D925004EDE49 /* UIImage+Capture.m */,
+				F41100A51E52D925004EDE49 /* UIImage+Color.h */,
+				F41100A61E52D925004EDE49 /* UIImage+Color.m */,
+				F41100A71E52D925004EDE49 /* UIImage+FileName.h */,
+				F41100A81E52D925004EDE49 /* UIImage+FileName.m */,
+				F41100A91E52D925004EDE49 /* UIImage+FX.h */,
+				F41100AA1E52D925004EDE49 /* UIImage+FX.m */,
+				F41100AB1E52D925004EDE49 /* UIImage+GIF.h */,
+				F41100AC1E52D925004EDE49 /* UIImage+GIF.m */,
+				F41100AD1E52D925004EDE49 /* UIImage+Merge.h */,
+				F41100AE1E52D925004EDE49 /* UIImage+Merge.m */,
+				F41100AF1E52D925004EDE49 /* UIImage+Orientation.h */,
+				F41100B01E52D925004EDE49 /* UIImage+Orientation.m */,
+				F41100B11E52D925004EDE49 /* UIImage+PDF.h */,
+				F41100B21E52D925004EDE49 /* UIImage+PDF.m */,
+				F41100B31E52D925004EDE49 /* UIImage+RemoteSize.h */,
+				F41100B41E52D925004EDE49 /* UIImage+RemoteSize.m */,
+				F41100B51E52D925004EDE49 /* UIImage+Resize.h */,
+				F41100B61E52D925004EDE49 /* UIImage+Resize.m */,
+				F41100B71E52D925004EDE49 /* UIImage+RoundedCorner.h */,
+				F41100B81E52D925004EDE49 /* UIImage+RoundedCorner.m */,
+				F41100B91E52D925004EDE49 /* UIImage+Vector.h */,
+				F41100BA1E52D925004EDE49 /* UIImage+Vector.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		F41100BB1E52D925004EDE49 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				F41100BC1E52D926004EDE49 /* UIView+Animation.h */,
+				F41100BD1E52D926004EDE49 /* UIView+Animation.m */,
+				F41100BE1E52D926004EDE49 /* UIView+BlockGesture.h */,
+				F41100BF1E52D926004EDE49 /* UIView+BlockGesture.m */,
+				F41100C01E52D926004EDE49 /* UIView+Constraints.h */,
+				F41100C11E52D926004EDE49 /* UIView+Constraints.m */,
+				F41100C21E52D926004EDE49 /* UIView+CustomBorder.h */,
+				F41100C31E52D926004EDE49 /* UIView+CustomBorder.m */,
+				F41100C41E52D926004EDE49 /* UIView+Debug.h */,
+				F41100C51E52D926004EDE49 /* UIView+Debug.m */,
+				F41100C61E52D926004EDE49 /* UIView+draggable.h */,
+				F41100C71E52D926004EDE49 /* UIView+draggable.m */,
+				F41100C81E52D926004EDE49 /* UIView+FDCollapsibleConstraints.h */,
+				F41100C91E52D926004EDE49 /* UIView+FDCollapsibleConstraints.m */,
+				F41100CA1E52D926004EDE49 /* UIView+Find.h */,
+				F41100CB1E52D926004EDE49 /* UIView+Find.m */,
+				F41100CC1E52D926004EDE49 /* UIView+Frame.h */,
+				F41100CD1E52D926004EDE49 /* UIView+Frame.m */,
+				F41100CE1E52D926004EDE49 /* UIView+GestureCallback.h */,
+				F41100CF1E52D926004EDE49 /* UIView+GestureCallback.m */,
+				F41100D01E52D926004EDE49 /* UIView+Nib.h */,
+				F41100D11E52D926004EDE49 /* UIView+Nib.m */,
+				F41100D21E52D926004EDE49 /* UIView+Recursion.h */,
+				F41100D31E52D926004EDE49 /* UIView+Recursion.m */,
+				F41100D41E52D926004EDE49 /* UIView+Screenshot.h */,
+				F41100D51E52D926004EDE49 /* UIView+Screenshot.m */,
+				F41100D61E52D926004EDE49 /* UIView+Shake.h */,
+				F41100D71E52D926004EDE49 /* UIView+Shake.m */,
+				F41100D81E52D926004EDE49 /* UIView+Toast.h */,
+				F41100D91E52D926004EDE49 /* UIView+Toast.m */,
+				F41100DA1E52D926004EDE49 /* UIView+ViewController.h */,
+				F41100DB1E52D926004EDE49 /* UIView+ViewController.m */,
+				F41100DC1E52D926004EDE49 /* UIView+Visuals.h */,
+				F41100DD1E52D926004EDE49 /* UIView+Visuals.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		F41101011E52D999004EDE49 /* Reachability(检测网络状态) */ = {
+			isa = PBXGroup;
+			children = (
+				F41101021E52D999004EDE49 /* Reachability.h */,
+				F41101031E52D999004EDE49 /* Reachability.m */,
+			);
+			name = "Reachability(检测网络状态)";
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		F41101051E52E01D004EDE49 /* UINavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				F4D747AD1E5572A200F6985A /* AnimationContoller.h */,
+				F4D747AE1E5572A200F6985A /* AnimationContoller.m */,
+				F41101061E52E01E004EDE49 /* UINavigationBar+Awesome.h */,
+				F41101071E52E01E004EDE49 /* UINavigationBar+Awesome.m */,
+				F4D747AA1E55721200F6985A /* GTNavigationViewController.h */,
+				F4D747AB1E55721200F6985A /* GTNavigationViewController.m */,
+			);
+			path = UINavigationBar;
+			sourceTree = "<group>";
+		};
+		F41101091E52E233004EDE49 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				F411010A1E52E27F004EDE49 /* Define.h */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		F411010B1E52E461004EDE49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F411010C1E52E46C004EDE49 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F411010D1E52E470004EDE49 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F4D747831E55347C00F6985A /* GTHomeViewController.h */,
+				F4D747841E55347C00F6985A /* GTHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F4D747861E55349F00F6985A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F4D7479E1E55352A00F6985A /* GTMineViewController.h */,
+				F4D7479F1E55352A00F6985A /* GTMineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F4D747891E55349F00F6985A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F4D7478A1E55349F00F6985A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F4D7478C1E5534B400F6985A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F4D747A11E55353B00F6985A /* GTCityViewController.h */,
+				F4D747A21E55353B00F6985A /* GTCityViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F4D7478F1E5534B400F6985A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F4D747901E5534B400F6985A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F4D747921E5534C000F6985A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F4D747A41E55354A00F6985A /* GTShowToolsViewController.h */,
+				F4D747A51E55354A00F6985A /* GTShowToolsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F4D747951E5534C000F6985A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F4D747961E5534C000F6985A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F4D747981E5534CB00F6985A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F4D747A71E55355500F6985A /* GTCenterViewController.h */,
+				F4D747A81E55355500F6985A /* GTCenterViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F4D7479B1E5534CB00F6985A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F4D7479C1E5534CB00F6985A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,9 +716,55 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F41100F91E52D926004EDE49 /* UIView+GestureCallback.m in Sources */,
+				F41100EA1E52D926004EDE49 /* UIImage+Orientation.m in Sources */,
+				F41100E21E52D926004EDE49 /* UIImage+BetterFace.m in Sources */,
+				F41100F71E52D926004EDE49 /* UIView+Find.m in Sources */,
+				F4D747A91E55355500F6985A /* GTCenterViewController.m in Sources */,
+				F41100F61E52D926004EDE49 /* UIView+FDCollapsibleConstraints.m in Sources */,
+				F41100EC1E52D926004EDE49 /* UIImage+RemoteSize.m in Sources */,
 				F41100521E529E5D004EDE49 /* ViewController.m in Sources */,
+				F41100921E52D86A004EDE49 /* BaseViewController.m in Sources */,
+				F4D747A01E55352A00F6985A /* GTMineViewController.m in Sources */,
+				F4D747AF1E5572A200F6985A /* AnimationContoller.m in Sources */,
+				F41100F21E52D926004EDE49 /* UIView+Constraints.m in Sources */,
+				F41100F31E52D926004EDE49 /* UIView+CustomBorder.m in Sources */,
 				F411004F1E529E5D004EDE49 /* AppDelegate.m in Sources */,
+				F4D747A31E55353B00F6985A /* GTCityViewController.m in Sources */,
+				F41100DE1E52D926004EDE49 /* NSObject+YC_HUD.m in Sources */,
+				F41100E11E52D926004EDE49 /* UIImage+animatedGIF.m in Sources */,
+				F41100E91E52D926004EDE49 /* UIImage+Merge.m in Sources */,
+				F4D747AC1E55721200F6985A /* GTNavigationViewController.m in Sources */,
+				F41101001E52D926004EDE49 /* UIView+Visuals.m in Sources */,
+				F41100F01E52D926004EDE49 /* UIView+Animation.m in Sources */,
+				F41100FF1E52D926004EDE49 /* UIView+ViewController.m in Sources */,
+				F41100E01E52D926004EDE49 /* UIImage+Alpha.m in Sources */,
+				F41100FC1E52D926004EDE49 /* UIView+Screenshot.m in Sources */,
+				F41100881E52D4A8004EDE49 /* GTTabBarController.m in Sources */,
+				F41100E41E52D926004EDE49 /* UIImage+Capture.m in Sources */,
+				F41100EB1E52D926004EDE49 /* UIImage+PDF.m in Sources */,
 				F411004C1E529E5D004EDE49 /* main.m in Sources */,
+				F41100E81E52D926004EDE49 /* UIImage+GIF.m in Sources */,
+				F41100E71E52D926004EDE49 /* UIImage+FX.m in Sources */,
+				F41100EE1E52D926004EDE49 /* UIImage+RoundedCorner.m in Sources */,
+				F41100DF1E52D926004EDE49 /* YC_ProgressHUD.m in Sources */,
+				F41100E31E52D926004EDE49 /* UIImage+Blur.m in Sources */,
+				F41100FE1E52D926004EDE49 /* UIView+Toast.m in Sources */,
+				F41100F81E52D926004EDE49 /* UIView+Frame.m in Sources */,
+				F4D747A61E55354A00F6985A /* GTShowToolsViewController.m in Sources */,
+				F41100EF1E52D926004EDE49 /* UIImage+Vector.m in Sources */,
+				F41101081E52E01E004EDE49 /* UINavigationBar+Awesome.m in Sources */,
+				F41100F51E52D926004EDE49 /* UIView+draggable.m in Sources */,
+				F41100E61E52D926004EDE49 /* UIImage+FileName.m in Sources */,
+				F41100F41E52D926004EDE49 /* UIView+Debug.m in Sources */,
+				F41100FA1E52D926004EDE49 /* UIView+Nib.m in Sources */,
+				F41100FB1E52D926004EDE49 /* UIView+Recursion.m in Sources */,
+				F41100FD1E52D926004EDE49 /* UIView+Shake.m in Sources */,
+				F4D747851E55347C00F6985A /* GTHomeViewController.m in Sources */,
+				F41100E51E52D926004EDE49 /* UIImage+Color.m in Sources */,
+				F41100ED1E52D926004EDE49 /* UIImage+Resize.m in Sources */,
+				F41101041E52D999004EDE49 /* Reachability.m in Sources */,
+				F41100F11E52D926004EDE49 /* UIView+BlockGesture.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
