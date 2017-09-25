@@ -1,0 +1,20 @@
+//
+//  GatherToolsPch.pch
+//  GatherTools
+//
+//  Created by 胜炫电子 on 2017/9/25.
+//  Copyright © 2017年 JDL. All rights reserved.
+//
+
+#ifndef GatherToolsPch_pch
+#define GatherToolsPch_pch
+
+
+#import "Define.h"
+#import "UIImage+Color.h"
+#import "Reachability.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* GatherToolsPch_pch */

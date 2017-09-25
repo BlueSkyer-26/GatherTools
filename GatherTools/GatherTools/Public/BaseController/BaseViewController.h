@@ -7,9 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Define.h"
-#import "UIImage+Color.h"
-#import "Reachability.h"
 
 @protocol BaseViewControllerDataSource <NSObject>
 
